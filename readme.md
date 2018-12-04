@@ -4,12 +4,12 @@
 
 ### *PARTIE A*
 
-Cette première partie concerne le script. Pour trouver le script, l'utilisateur doit forker mon repository puis le cloner (voir Partie B). **Il est important defaire la commande ```cd MoSEF-Projet-2018```** (la commande ls permet de voir sile fichier fich_semaine_derniere.sh est présent)
+Cette première partie concerne le script. Pour trouver le script, l'utilisateur doit forker mon repository puis le cloner (voir Partie B). **Il est important de faire la commande ```cd MoSEF-Projet-2018```** (la commande ls permet de voir si le fichier fich_semaine_derniere.sh est présent)
 
-A l'aide de la commande ```bash```, l'utilisateur va pouvoir exécuter le script.Il est demandé à l'utilisateur son nom, le script lui souhaitera la bienvenue etlui donnera la date du jour.
+A l'aide de la commande ```bash```, l'utilisateur va pouvoir exécuter le script.Il est demandé à l'utilisateur son nom, le script lui souhaitera la bienvenue et lui donnera la date du jour.
 Puis, le script lui affichera la liste des fichiers dans un répertoire, il pourra alors choisir un répertoire existant. Le chemin du répertoire apparaitra.
 Le script montrera les 4 premiers codes à l'aide de la commande ```head```
-Pour finir, il est demandé d'afficher tous les fichiers modifiés d'il y a moins d'une semaine (à l'aide ```find```) du répertoire donné par l'utilisateur.
+Pour finir, il est demandé d'afficher tous les fichiers modifiés d'il y a moins d'une semaine (à l'aide de ```find```) du répertoire donné par l'utilisateur.
 
 ### *PARTIE B*
 
@@ -70,7 +70,7 @@ Pour fusionner la nouvelle branche à master, il est **important de se placer su
 ``` 
 git checkout master
 ```
-(on peut le vérifier avec un git status pour le code couleur en vert) 
+(on peut le vérifier avec un ```git branch``` pour le code couleur en vert) 
 ```
 git merge new_branch
 ```
