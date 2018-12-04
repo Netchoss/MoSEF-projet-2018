@@ -1,4 +1,4 @@
-# Projet MoSEF 2019-2019 de NACHAMPASSAK Bénédicte (netchoss)
+# Projet MoSEF 2018-2019 de NACHAMPASSAK Bénédicte (netchoss)
 
 #### **Le but de se "readme.md" est de comprendre le fonctionnement de ce projet et du script. Vous y trouverez également le code!**
 
@@ -9,7 +9,7 @@ Cette première partie concerne le script. Pour trouver le script, l'utilisateur
 A l'aide de la commande ```bash```, l'utilisateur va pouvoir exécuter le script.Il est demandé à l'utilisateur son nom, le script lui souhaitera la bienvenue etlui donnera la date du jour.
 Puis, le script lui affichera la liste des fichiers dans un répertoire, il pourra alors choisir un répertoire existant. Le chemin du répertoire apparaitra.
 Le script montrera les 4 premiers codes à l'aide de la commande ```head```
-Pour finir, il est demandé d'afficher tous les fichiers modifiés d'il y a moins d'une semaine du répertoire donné par l'utilisateur.
+Pour finir, il est demandé d'afficher tous les fichiers modifiés d'il y a moins d'une semaine (à l'aide ```find```) du répertoire donné par l'utilisateur.
 
 ### *PARTIE B*
 
@@ -48,7 +48,7 @@ git push -u origin master
 **Question 5**
 Editer le script :
  ```
-echo "find -type f mtime -7" >> fich_semaine_derniere.sh
+echo "find -type f -mtime -7" >> fich_semaine_derniere.sh
  ```
 
 **Question 6** 
