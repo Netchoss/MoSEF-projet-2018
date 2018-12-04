@@ -16,6 +16,9 @@ echo "Le chemin de ton répertoire est le suivant:"
 pwd
 echo ""
 
-echo "Voici les 4 premières lignes du script:"
+echo "Voici les 4 premières lignes du script: "
 head -n 4 fich_semaine_derniere.sh  
+echo""
 
+echo "Voici les fichiers du repertoire $rep il y a moins d'une semaine: "
+find -type f -mtime -7
